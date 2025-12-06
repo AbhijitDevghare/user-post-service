@@ -35,7 +35,7 @@ app.set('trust proxy', 1);
 
 // Routes will be mounted in server.js
 const routes = require("./routes/v1/postRoutes");
-app.use("/post",routes) 
+app.use("/",routes) 
 
 app.use("/ping",(req,res)=>{
   res.send("PONG")
