@@ -11,8 +11,8 @@ const AppError = require('../utils/error.utils');
 /**
  * Create a new post
  */
-const authServiceBaseUrl = "https://api.impactlog.me/auth";
-const userServiceBaseUrl = "https://api.impactlog.me/users";
+const authServiceBaseUrl = "https://api.impactlog.me/user/auth";
+const userServiceBaseUrl = "https://api.impactlog.me/user/profile";
 const engagementService = "https://api.impactlog.me/engagement";
 
 async function createPost(userId, content, files, username) {
